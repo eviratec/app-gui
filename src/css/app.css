@@ -1,0 +1,106 @@
+/** 
+ * Copyright (c) 2017 Callan Peter Milne
+ * 
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above 
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ * LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ * PERFORMANCE OF THIS SOFTWARE.
+ */
+
+html, body {
+  font-weight: 300;
+  background: transparent url("images/bg-repeat.jpg") repeat;
+  font-family: Roboto, "Roboto", sans-serif;
+}
+web-app-root {
+  height: 100%;
+  display: block;
+}
+md-tab-content {
+  padding-top: 24px;
+}
+.contact-form-container {
+  background-color: #efefef;
+  border-radius: 3px;
+  padding: 16px 24px;
+  width: 500px;
+}
+.web-app-container {
+  width: 580px;
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 24px;
+  background-color: #242424;
+  box-shadow: 0 5px 40px 1px rgba(0,0,0,0.7);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.eviratec-landing-lhs {
+  border-right: 1px solid rgba(255,255,255,0.12);
+  margin-right: 32px;
+  padding-right: 32px;
+}
+.web-app-header,
+.web-app-footer {
+  width: 100%;
+}
+.web-app-footer {
+  height: 64px;
+  color: rgba(255,255,255,0.57);
+  font-size: 12px;
+}
+.web-app-footer .web-app-footer-container {
+  height: 100%;
+}
+.web-app-header .tagline {
+  text-align: right;
+  padding-right: 32px;
+  color: rgba(255,255,255,0.57);
+  font-size: 22px;
+  font-weight: 200;
+}
+
+web-app-root md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar), md-toolbar.md-hue-2:not(.md-menu-toolbar) {
+  background-color: rgba(22,22,22,1);
+}
+md-nav-bar .md-nav-bar {
+  border-bottom: none;
+}
+md-nav-bar .md-nav-bar .md-nav-item button span._md-nav-button-text {
+  font-weight: 300;
+}
+
+h2 span.logo {
+  height: 68px;
+  width: 158px;
+  background: url(images/logo-web.png) -8px 3px no-repeat;
+  background-size: 100%;
+  text-indent: 220px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+web-app-root .contact-form-content button.md-raised.md-primary {
+  color: rgba(255,255,255,1);
+  /*background-color: #0091EA;*/
+}
+
+h2.md-headline {
+  color: rgba(255,255,255,0.57);
+  font-weight: 200;
+  margin-top: 0;
+}
+h2.md-headline span {
+  font-weight: 300;
+}
+md-content#stageContent {
+  background: url(images/green-bg-v1.jpg);
+  background-size: cover;
+  padding: 0 18px 18px;
+}

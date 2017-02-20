@@ -1,0 +1,33 @@
+<div layout="column"
+  layout-fill>
+
+  <md-toolbar class="md-hue-2">
+
+    <div class="md-toolbar-tools md-whiteframe-1dp">
+
+      <!-- <md-button class="md-icon-button" aria-label="Main menu">
+        <md-icon class="material-icons">menu</md-icon>
+      </md-button> -->
+
+      <h2>
+        <span class="logo">Eviratec</span>
+      </h2>
+
+      <span flex></span>
+
+      <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+        <md-nav-item md-nav-href="/"><md-icon class="material-icons">home</md-icon></md-nav-item>
+        <md-nav-item md-nav-href="/application-development">What we do</md-nav-item>
+        <md-nav-item md-nav-href="/contact-us">Contact us</md-nav-item>
+      </md-nav-bar>
+
+    </div>
+
+  </md-toolbar>
+
+  <md-content id="stageContent"
+    ui-view
+    flex>
+  </md-content>
+
+</div>
