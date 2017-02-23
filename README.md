@@ -8,7 +8,7 @@ The standard base for application GUIs made by [Eviratec](http://www.eviratec.co
 
 1. Clone this repo: `$ git clone git@github.com:eviratec/app-gui`
 2. Install dependencies with npm: `$ npm install`
-3. Start the dev server: `$ grunt dev`
+3. Start the [Grunt](https://gruntjs.com/) dev server: `$ npm start`
 
 # License
 

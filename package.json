@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Eviratec App GUI template",
   "scripts": {
-    "test": "node_modules/grunt/node_modules/.bin/grunt unit"
+    "test": "node_modules/grunt/node_modules/.bin/grunt unit",
+    "start": "node_modules/grunt/node_modules/.bin/grunt dev"
   },
   "config": {
     "build": {
