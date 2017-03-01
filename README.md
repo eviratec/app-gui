@@ -2,17 +2,17 @@
 
 The standard base for application GUIs made by [Eviratec](http://www.eviratec.com).
 
-# Dev environment
+## Dev environment
 
-## Getting started
+### Getting started
 
 1. Clone this repo: `$ git clone git@github.com:eviratec/app-gui`
-2. Install dependencies with npm: `$ npm install`
+2. Install dependencies with [npm](https://www.npmjs.com/): `$ npm install`
 3. Start the [Grunt](https://gruntjs.com/) dev server: `$ npm start`
 
-# License
+## License
 
-## ISC License (ISC)
+### ISC License (ISC)
 
 Copyright (c) 2017 Callan Peter Milne
 
