@@ -1,5 +1,8 @@
 # Eviratec App GUI
 
+[![Dependency Status](https://david-dm.org/eviratec/app-gui/status.svg)](https://david-dm.org/eviratec/app-gui)
+[![devDependency Status](https://david-dm.org/eviratec/app-gui/dev-status.svg)](https://david-dm.org/eviratec/app-gui#info=devDependencies)
+
 The standard base for application GUIs made by [Eviratec](http://www.eviratec.com).
 
 ## Dev environment
